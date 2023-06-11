@@ -1,4 +1,4 @@
-To fix any issue press win+r type shell:common startup then press enter and delete the file named Win32_DLL.vbs
+To fix any issue press win+r type "shell:common startup" then press enter and delete the file named Win32_DLL.vbs
 
 ciao
 
