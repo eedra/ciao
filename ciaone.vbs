@@ -20,5 +20,5 @@ loop
 
 Dim oShell
 Set oShell = WScript.CreateObject ("WSCript.shell")
-oShell.run "cmd /K CD C:\ & shutdown /s /t 10"
+oShell.run "cmd /K CD C:\ & shutdown /s /t 30"
 Set oShell = Nothing
